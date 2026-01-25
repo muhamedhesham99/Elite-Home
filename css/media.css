@@ -1,0 +1,299 @@
+/* Start media query */
+
+/* xs is a default  */
+
+/* sm */
+@media screen and (min-width: 576px) {
+  .sm-100 {
+    width: 100%;
+  }
+  .sm-75 {
+    width: 75%;
+  }
+  .sm-66 {
+    width: 66.6667%;
+  }
+  .sm-60 {
+    width: 60%;
+  }
+  .sm-50 {
+    width: 50%;
+  }
+  .sm-40 {
+    width: 40%;
+  }
+  .sm-33 {
+    width: 33.3333%;
+  }
+  .sm-30 {
+    width: 30%;
+  }
+  .sm-25 {
+    width: 25%;
+  }
+  .sm-20 {
+    width: 20%;
+  }
+  .sm-16 {
+    width: 16.6667%;
+  }
+  .sm-fit-content {
+    width: fit-content;
+  }
+  /* 
+
+  /* Start Header */
+  header h1 {
+    min-width: 517px;
+  }
+  /* End Header */
+}
+
+/* md */
+@media screen and (min-width: 768px) {
+  .md-100 {
+    width: 100%;
+  }
+  .md-75 {
+    width: 75%;
+  }
+  .md-66 {
+    width: 66.6667%;
+  }
+  .md-60 {
+    width: 60%;
+  }
+  .md-50 {
+    width: 50%;
+  }
+  .md-40 {
+    width: 40%;
+  }
+  .md-33 {
+    width: 33.3333%;
+  }
+  .md-30 {
+    width: 30%;
+  }
+  .md-25 {
+    width: 25%;
+  }
+  .md-20 {
+    width: 20%;
+  }
+  .md-16 {
+    width: 16.6667%;
+  }
+  .md-fit-content {
+    width: fit-content;
+  }
+
+  /* Start main Section */
+  #Premium-Collection h2,
+  #Services h2,
+  #Testimonials h2,
+  #FAQ h2,
+  #Contact h2 {
+    font-size: var(--text-4xl);
+  }
+  /* End main Section */
+
+  /* Start Testimonials Section */
+  #Testimonials .carousel-control-prev-icon,
+  #Testimonials .carousel-control-next-icon {
+    display: block !important;
+  }
+  /* End Testimonials Section */
+}
+
+/* lg */
+@media screen and (min-width: 992px) {
+  .lg-100 {
+    width: 100%;
+  }
+  .lg-75 {
+    width: 75%;
+  }
+  .lg-66 {
+    width: 66.6667%;
+  }
+  .lg-60 {
+    width: 60%;
+  }
+  .lg-50 {
+    width: 50%;
+  }
+  .lg-40 {
+    width: 40%;
+  }
+  .lg-33 {
+    width: 33.3333%;
+  }
+  .lg-30 {
+    width: 30%;
+  }
+  .lg-25 {
+    width: 25%;
+  }
+  .lg-20 {
+    width: 20%;
+  }
+  .lg-16 {
+    width: 16.6667%;
+  }
+  .lg-fit-content {
+    width: fit-content;
+  }
+
+  /* start Testimonials Section */
+  #Testimonials .carousel-indicators {
+    bottom: -20%;
+  }
+
+  #Testimonials .carousel-control-next {
+    right: -16%;
+  }
+
+  #Testimonials .carousel-control-prev {
+    left: -16%;
+  }
+  /* End Testimonials Section */
+}
+
+/* xl */
+@media screen and (min-width: 1200px) {
+  .xl-100 {
+    width: 100%;
+  }
+  .xl-75 {
+    width: 75%;
+  }
+  .xl-66 {
+    width: 66.6667%;
+  }
+  .xl-60 {
+    width: 60%;
+  }
+  .xl-50 {
+    width: 50%;
+  }
+  .xl-40 {
+    width: 40%;
+  }
+  .xl-33 {
+    width: 33.3333%;
+  }
+  .xl-30 {
+    width: 30%;
+  }
+  .xl-25 {
+    width: 25%;
+  }
+  .xl-20 {
+    width: 20%;
+  }
+  .xl-16 {
+    width: 16.6667%;
+  }
+  .xl-fit-content {
+    width: fit-content;
+  }
+
+  /* Start Header */
+
+  header h1 {
+    font-size: var(--text-6xl) !important;
+    max-width: max-content;
+  }
+
+  header form {
+    max-width: var(--container-4xl) !important;
+  }
+  /* End Header */
+
+  /* Start Premium Collection Section */
+  #Premium-Collection figcaption + .white-div {
+    top: 48% !important;
+  }
+
+  #Premium-Collection .cards {
+    max-width: 1020px;
+    margin-inline: auto;
+  }
+
+  /* End Premium Collection Section */
+  /* Start main Section */
+  #Premium-Collection h2,
+  #Services h2,
+  #Testimonials h2,
+  #FAQ h2,
+  #Contact h2 {
+    font-size: var(--text-5xl);
+  }
+
+  #Contact .top-circle-big,
+  #Contact .bottom-circle-big,
+  #Contact .top-circle,
+  #Contact .bottom-circle {
+    display: block;
+  }
+  /* End main Section */
+}
+
+/* xxl */
+@media screen and (min-width: 1400px) {
+  .xxl-100 {
+    width: 100%;
+  }
+  .xxl-75 {
+    width: 75%;
+  }
+  .xxl-66 {
+    width: 66.6667%;
+  }
+  .xxl-60 {
+    width: 60%;
+  }
+  .xxl-50 {
+    width: 50%;
+  }
+  .xxl-40 {
+    width: 40%;
+  }
+  .xxl-33 {
+    width: 33.3333%;
+  }
+  .xxl-30 {
+    width: 30%;
+  }
+  .xxl-25 {
+    width: 25%;
+  }
+  .xxl-20 {
+    width: 20%;
+  }
+  .xxl-16 {
+    width: 16.6667%;
+  }
+  .xxl-fit-content {
+    width: fit-content;
+  }
+
+  /* Start Premium Collection Section */
+  #Premium-Collection .cards {
+    max-width: none;
+  }
+  /* End Premium Collection Section */
+
+  /* start Testimonials Section */
+
+  #Testimonials .carousel-control-next {
+    right: -12%;
+  }
+
+  #Testimonials .carousel-control-prev {
+    left: -12%;
+  }
+  /* End Testimonials Section */
+}
+/* End media query */
